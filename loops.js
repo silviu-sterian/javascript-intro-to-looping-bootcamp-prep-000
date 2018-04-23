@@ -14,7 +14,7 @@ function forLoop(arr)
 {
   var newArr = [...arr];
   
-  for(let i =arr.length;i<arr.length+25;i++)
+  for(let i =0;i<25;i++)
   {
     let s= i==1?"I am 1 strange loop.":`I am ${i} strange loops.`;
     newArr.push(s);
