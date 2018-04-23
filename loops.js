@@ -12,13 +12,11 @@ function makeArray() {
 
 function forLoop(arr)
 {
-  for(let i =0;)
+  for(let i =0, length = arr.length;i<length;i++)
+  {
+    let s = i==1?"I am one strange loop":`I am ${i} 
+  }
 }
-
-describe('loops', () => {
-  jsdom({
-    src: fs.readFileSync(path.resolve(__dirname, '..', 'loops.js'), 'utf-8')
-  })
 
   describe('forLoop(array)', () => {
     it('adds `"I am ${i} strange loop${i === 0 ? \'\' : \'s\'}."` to an array 25 times', () => {
