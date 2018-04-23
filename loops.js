@@ -33,7 +33,9 @@ function whileLoop(n)
   return 'done';
 }
 
- 
+ function maybeTrue() {
+  return Math.random() >= 0.5
+}
 
   describe('doWhileLoop(array)', () => {
     it('removes describe('forLoop(array)', () => {
