@@ -37,21 +37,11 @@ function whileLoop(n)
   return Math.random() >= 0.5
 }
 
-  describe('doWhileLoop(array)', () => {
-    it('removes describe('forLoop(array)', () => {
-    it('adds `"I am ${i} strange loop${i === 0 ? \'\' : \'s\'}."` to an array 25 times', () => {
-      const [array, t] = makeArray()
-      const strangeArray = forLoop(array)
-
-      expect(strangeArray.length).to.equal(t + 25)
-
-      const tes elements from `array` until `array` is empty or until `maybeTrue()` returns `false`', () => {
-      const [array, t] = makeArray()
-      const l = array.length
-
-      const newArray = doWhileLoop(array)
-
-      expect(newArray).to.have.length.of.at.most(l - 1)
-    })
-  })
-})
+function doWhileLoop(arr)
+{
+  do
+  {arr.pop();}
+  while(arr.length >0  && maybeTrue());
+  
+}
+  
